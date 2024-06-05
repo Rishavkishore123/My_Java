@@ -1,0 +1,6 @@
+Kya sb kchh shi se likha rhe h tb toh badhiya h bhai
+
+int a=23;
+int b=34;
+int sum=a+b;
+    =57;
