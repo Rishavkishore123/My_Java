@@ -15,3 +15,7 @@ public class practiceset3 {
        System.out.println("The multiply of this result :"+ result);
     }
 }
+
+
+
+    

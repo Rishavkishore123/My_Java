@@ -2,7 +2,7 @@ package Multithreading;
 
 class D implements Runnable{
     public void run(){
-        for(int i=0;i<=10;i++){
+        for(int i=0;i<=50;i++){
             System.out.println("Hii");
             try {
                 Thread.sleep(1000);
@@ -17,7 +17,7 @@ class D implements Runnable{
 }
 class E implements Runnable{
     public void run(){
-        for(int i=0;i<=10;i++){
+        for(int i=0;i<=50;i++){
             System.out.println("Caring");
             try {
                 Thread.sleep(1000);
