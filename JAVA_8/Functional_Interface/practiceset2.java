@@ -13,7 +13,7 @@ public class practiceset2 {
         {
             public void run(int i,int j, String name){
                 int sum= i+j;
-                System.out.println("running page " +sum+name);
+                System.out.println("running page " +sum + " "+name);
             }
         };
        obj3.run(5,8,"All girls ");
