@@ -26,8 +26,6 @@ public class Default_func  {
         b1.Love();
         b1.Girl();
         System.out.println(b1.sayHello(7, 8));
-
-        
-        
+  
     }
 }
