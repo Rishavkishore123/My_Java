@@ -15,6 +15,8 @@ public class practiceset1 {
         
         Fan f1= new Fan();
       
+        
+
         System.out.println(c1.displayAdd(3,5));
         System.out.println(c2.displayMulti(2,7));
         System.out.println(s1.displaySubtract(4,2));

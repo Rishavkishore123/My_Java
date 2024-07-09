@@ -1,0 +1,15 @@
+To create a simple Java application that displays the message "WELCOME" followed by your name with a blue background,
+ you can use Java Swing. Here's a basic example:
+
+ public class WelcomeMessage {
+
+    public static void main(String[] args) {
+
+JFrame frame = new JFrame("Welcome Message");
+frame.setSize(300, 200);
+frame.getContentPane().setBackground(Color.BLUE);
+frame.setLayout(new BorderLayout());
+JLabel welcomeLabel = new JLabel("WELCOME");
+
+
+}

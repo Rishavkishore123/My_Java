@@ -12,7 +12,11 @@ class Fruits{
         this.fav_fruit=fav_fruit;
     }
 
-     public void displayFruits(){
+     public Fruits(String string, int i) {
+        //TODO Auto-generated constructor stub
+    }
+
+    public void displayFruits(){
        System.out.println("The fruit of price is:"+ price);
         System.out.println("The name of fruit is :"+ fruit_name);
         System.out.println("What is your fav_fruit?"+ fav_fruit );

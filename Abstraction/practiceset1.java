@@ -1,3 +1,4 @@
+ 
  abstract class Shape{
     public void displayRule(){
         System.out.println("Consistency is necessary for coding!!");
@@ -22,10 +23,10 @@ class Rectangle extends Shape{
 
 public class practiceset1{
     public static void main(String[] args){
-        Shape obj1=new Circle();
+        Circle obj1=new Circle();
         obj1.draw();
 
-        Shape obj2=new Rectangle();
+        Rectangle obj2=new Rectangle();
         obj2.draw();
         obj2.displayRule();
         

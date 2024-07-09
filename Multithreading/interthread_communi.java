@@ -34,11 +34,11 @@ package Multithreading;
     }
     
     class Producer implements Runnable {
-        private final SharedResource resource;
+       private final SharedResource resource;
     
         public Producer(SharedResource resource) {
             this.resource = resource;
-        }
+        } 
     
         @Override
         public void run() {

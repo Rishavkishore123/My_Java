@@ -36,8 +36,8 @@ public class practiceset2_implements {
         Thread t1= new Thread(d1);
         t1.start();
 
-        Thread t2= new Thread(e1);
-        t2.start();
+         Thread t2= new Thread(e1);
+         t2.start();
     }
     
 

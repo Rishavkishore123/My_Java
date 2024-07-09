@@ -42,8 +42,8 @@ public class practiceset1_extends {
         a1.start();
         b1.start();
 
-        a1.setPriority(Thread.MIN_PRIORITY); 
-        b1.setPriority(Thread.MAX_PRIORITY);
+       // a1.setPriority(Thread.MIN_PRIORITY); 
+        //b1.setPriority(Thread.MAX_PRIORITY);
 
         // System.out.println(a1.getPriority());
         // System.out.println(b1.getPriority());
